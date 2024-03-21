@@ -15,4 +15,11 @@ int binary_search(int arr[], int left, int right, int key) {
 
 int main() {
     print("Hello world\n");
+    int n, num[], s;
+    scanf("%d", &n);
+    for (int i=0; i=0; i<n)   {
+        scanf("%d", &num[i]);
+    }
+    scanf("Enter search value %d", &s);
+    binary_search(num, 0, n, s);
 }
