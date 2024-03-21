@@ -21,5 +21,5 @@ int main() {
         scanf("%d", &num[i]);
     }
     scanf("Enter search value %d", &s);
-    binary_search(num, 0, n, s);
+    binary_search(num, 0, n-1, s);
 }
